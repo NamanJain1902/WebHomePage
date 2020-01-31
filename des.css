@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kurale|Monsieur+La+Doulaise|Permanent+Marker&display=swap');
+
+body{
+    margin: 0;      
+}
+.bgimg{
+    background-image: url("C:/Users/OM/www/frontweb/images/drag.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+header{
+    height: 50px;
+    background: black;
+    color: white;
+    padding: 6px 6px 6px 8px;
+    font-family: 'Permanent Marker', cursive;
+    position: fixed;
+}
+header h1:before{
+    content: "";
+    display:block;
+    background: brown;
+    width: 5px;
+    height: 50px;
+    position: fixed;
+    
+    left:11%;
+    
+}
+header h1{  
+    display:inline;
+    font-weight: 400;
+    font-size: 32px;
+
+}
+header h1:active{               /*  opacity   using active and opacity*/
+    opacity: 0.4;
+}
+
+nav ul{
+    display: inline;   
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 12;
+}
+nav ul li a{
+  
+    color: white;
+    text-decoration: none;   
+}
+
+
+
+#hed{
+    font-family: 'Abril Fatface', cursive;
+    position: fixed;
+}    
+
+.hedhover:hover{
+    background-color: red;
+    padding: 30px 10px 16px 8px;
+}
+.hedinsta{
+    display:inline-block;
+    
+    margin-left: 52;
+    left: calc(50%);
+    top: 25px;
+    position: fixed;    /*why moving without fixed*/
+}
+.insta{
+    border-radius: 100%;
+    width: 30px;
+    height:30px
+}
+.insta:hover{
+    font-size: 50px;
+}
+
+.my-input{
+    outline: none;
+    display: inline-block;
+    margin-left: 80%;
+    width: 70%;
+    border-radius: 5px 5px 50px 2px;
+  /*    border-bottom-right-radius: 25px 50px;*/
+}
+#google_translate_element{
+    display: inline-block;
+    margin-left: 20%;
+    position: fixed;
+}
+.divider{
+    position: fixed;
+    background-color: red;
+    height:5px;
+}
+
+
+.hedimgwork1{
+    font-family: 'Kurale', serif; 
+    padding: 3% 3% 0% 5%;
+    color: white;
+    display:inline-block;
+}
+.hedimgwork2{
+    position: relative;
+    font-family: 'Kurale', serif;
+    margin: 2% 0% 0% 90%;
+    font-size: 20px;
+    color: gold;
+    display:inline-block;
+   /* background-color: rgba(55,3,5,0.4);    /*a-> opacity
+    display: inline-block;*/
+}
+.hedimgwork2:hover{
+    font-size: 25px;
+}
+.upload{
+    font-family: 'Kurale', serif;
+    margin: 7% 0% 0% 5%;
+    background-color: rgba(55,3,5,0.4);
+    color: yellowgreen;
+    cursor: pointer;
+    font-weight: 900;
+}
+.upload:hover{
+    font-size: 15px;
+}
+/*----------------------Over Flow-------------------------*/
+.text{
+    position:relative;
+    margin: 50;
+    padding:5px 10px 10px 10px;
+    max-height:150px;
+    overflow:scroll;
+    overflow-x: hidden;
+    border:2px solid black;
+}
